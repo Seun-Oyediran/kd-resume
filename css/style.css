@@ -74,7 +74,6 @@ body {
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -0.015em;
-  text-transform: uppercase;
 }
 
 .header-con .action-btn-con {
@@ -234,9 +233,26 @@ body {
   text-transform: uppercase;
 }
 
+.second-section .title p,
+.third-section .title p {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1c1f1e;
+  font-family: var(--neue);
+  /* max-width: 400px; */
+}
+
+.second-section .title p a,
+.third-section .title p a {
+  color: #806f68;
+}
+
 .second-section .content,
-.third-section .content {
-  max-width: 670px;
+.third-section .content,
+.second-section .title,
+.third-section .title {
+  max-width: 700px;
 }
 
 .second-section .content a,
@@ -358,11 +374,7 @@ footer .back-to-top {
   top: 0;
   left: 0;
   height: 100%;
-  width: 0%;
+  width: 15%;
   background: #6d7372;
   border-radius: 154px 0px 0px 154px;
-}
-
-body {
-  overflow-y: hidden;
 }
